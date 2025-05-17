@@ -2,31 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Basic HTML Page</title>
+    <title>My Tweets Page</title>
 </head>
 <body>
-    <h1>Welcome to My Webpage</h1>
+    <header>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
     
-    <p>This is the first paragraph of my webpage. Here I'm demonstrating the basic structure of an HTML document with multiple paragraphs and heading levels.</p>
+    <main>
+        <article>
+            <h1>Featured Tweets</h1>
+            
+            <p>Here's an example of an embedded tweet:</p>
+            
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>
+                &mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
+            <p>This is a sample embedded tweet from the US Department of the Interior.</p>
+        </article>
+        
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
     
-    <h2>About HTML</h2>
-    
-    <p>HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications. With HTML, you can create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items.</p>
-    
-    <h3>Learning HTML</h3>
-    
-    <p>Learning HTML is the first step in becoming a web developer. It provides the structure for your web content and is often complemented by CSS for styling and JavaScript for behavior.</p>
-    
-    <p>The best way to learn HTML is through practice. Create small projects, experiment with different tags, and gradually build more complex pages as you become more comfortable with the language.</p>
-    
-    <h3>Clickable Image Example</h3>
-    
-    <a href="https://www.holbertonschool.com">
-        <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton School Logo">
-    </a>
-    
-    <h3>More Content</h3>
-    
-    <p>Check out our <a href="tweets.html">Tweets page</a> to see some featured tweets!</p>
+    <footer>
+        <p>Made by Your Name - <a href="https://github.com/yourusername" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
